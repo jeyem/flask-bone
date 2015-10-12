@@ -2,7 +2,7 @@
 from project import init_app
 from project.config import DevelopmentConfig
 
-application = init_app(DevelopmentConfig, 'starter')
+application = init_app(DevelopmentConfig)
 
 
 if __name__ == "__main__":

@@ -11,13 +11,13 @@ from project.extensions import cache
 __all__ = ['init_app']
 
 
-def init_app(config, app_name):
+def init_app(config):
     """
     main function for initializing all
     """
 
     app = Flask(
-        app_name
+        __name__
     )
 
     configure(app, config)
