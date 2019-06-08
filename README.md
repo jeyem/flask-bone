@@ -1,3 +1,3 @@
 # Flask bone
 
-  This is a skeletone for create a big stracture application for flask
+  This is a skeleton for create a big structure application for flask.
